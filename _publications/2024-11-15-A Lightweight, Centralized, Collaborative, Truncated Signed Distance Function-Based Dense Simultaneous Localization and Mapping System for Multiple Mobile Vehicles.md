@@ -1,0 +1,14 @@
+---
+title: "A Lightweight, Centralized, Collaborative, Truncated Signed Distance Function-Based Dense Simultaneous Localization and Mapping System for Multiple Mobile Vehicles"
+collection: publications
+category: manuscripts
+permalink: /publication/2009-10-01-A Lightweight, Centralized, Collaborative, Truncated Signed Distance Function-Based Dense Simultaneous Localization and Mapping System for Multiple Mobile Vehicles
+excerpt: 'Simultaneous Localization And Mapping (SLAM) algorithms play a critical role in autonomous exploration tasks requiring mobile robots to autonomously explore and gather information in unknown or hazardous environments where human access may be difficult or dangerous. However, due to the resource-constrained nature of mobile robots, they are hindered from performing long-term and large-scale tasks. In this paper, we propose an efficient multi-robot dense SLAM system that utilizes a centralized structure to alleviate the computational and memory burdens on the agents (i.e. mobile robots). To enable real-time dense mapping of the agent, we design a lightweight and accurate dense mapping method. On the server, to find correct loop closure inliers, we design a novel loop closure detection method based on both visual and dense geometric information. To correct the drifted poses of the agents, we integrate the dense geometric information along with the trajectory information into a multi-robot pose graph optimization problem. Experiments based on pre-recorded datasets have demonstrated our system’s efficiency and accuracy. Real-world online deployment of our system on the mobile vehicles achieved a dense mapping update rate of ∼14 frames per second (fps), a onboard mapping RAM usage of ∼3.4%, and a bandwidth usage of ∼302 KB/s with a Jetson Xavier NX.'
+date: 2024-11-15
+venue: 'Sensors'
+slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
+paperurl: 'http://academicpages.github.io/files/paper1.pdf'
+citation: 'H Que, H Gao, W Shan, X Yang, R Zhao. (2024). &quot;A Lightweight, Centralized, Collaborative, Truncated Signed Distance Function-Based Dense Simultaneous Localization and Mapping System for Multiple Mobile Vehicles.&quot; <i>Sensors</i>. 24(22).'
+---
+
+The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
