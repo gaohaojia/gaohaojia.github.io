@@ -12,7 +12,7 @@ title                    : "Haojia Gao / Personal Website"
 title_separator          : "-"
 name                     : &name "Haojia Gao"
 description              : &description "personal description"
-url                      : http://aboutme.gaohaojia.top # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://aboutme.gaohaojia.top # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "gaohaojia/gaohaojia.github.io"
 
@@ -27,7 +27,7 @@ author:
   bio              : "Gao"
   location         : "Beijing, China"
   employer         : "Beijing University of Technology"
-  uri              : "http://aboutme.gaohaojia.top/"
+  uri              : "https://www.gaohaojia.top/"
   email            : "gaohaojia@emails.bjut.edu.cn" 
 
   # Academic websites
