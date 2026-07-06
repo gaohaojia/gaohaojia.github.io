@@ -26,7 +26,9 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Gao"
   location         : "Beijing, China"
-  employer         : "Beijing University of Technology"
+  location_url     : "https://www.google.com/maps/search/?api=1&query=Beijing%2C%20China"
+  employer         : "Tsinghua University"
+  employer_url     : "https://www.tsinghua.edu.cn/en/"
   uri              : "https://www.gaohaojia.top/"
   email            : "me@gaohaojia.top" 
 
