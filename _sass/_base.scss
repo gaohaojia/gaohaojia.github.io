@@ -149,7 +149,8 @@ pre {
     padding: 0.85rem 1rem;
     overflow: auto;
     color: $text-color;
-    font-size: $type-size-7;
+    font-family: "Times New Roman", Times, serif;
+    font-size: $type-size-8;
     line-height: 1.5;
     white-space: pre-wrap;
     overflow-wrap: anywhere;
@@ -161,6 +162,7 @@ pre {
 
   code {
     display: block;
+    font-family: inherit;
     white-space: pre-wrap;
     background: transparent;
     border: 0;
@@ -186,7 +188,7 @@ pre {
   pre {
     margin-top: 0.4rem;
     max-height: 12rem;
-    font-size: $type-size-8;
+    font-size: 0.58em;
   }
 }
 
