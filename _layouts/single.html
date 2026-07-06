@@ -47,6 +47,13 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
+        {% if page.abstract %}
+          <section class="publication-abstract">
+            <h2>Abstract</h2>
+            <p>{{ page.abstract }}</p>
+          </section>
+        {% endif %}
+
         {% if page.citation %}
           <div class="bibtex-citation">
             <p class="bibtex-citation__label">BibTeX</p>

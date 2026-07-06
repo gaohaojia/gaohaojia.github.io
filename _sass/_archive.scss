@@ -107,6 +107,37 @@
   }
 }
 
+.publication-list__item {
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
+  border-bottom: 1px solid $border-color;
+
+  &:first-of-type {
+    padding-top: 0;
+  }
+
+  &:last-of-type {
+    border-bottom: 0;
+  }
+
+  .archive__item-title {
+    margin-top: 0;
+    margin-bottom: 0.35em;
+    line-height: 1.25;
+  }
+
+  .publication-meta,
+  .publication-links {
+    margin: 0.25em 0 0.5em;
+    color: $gray;
+    font-size: $type-size-6;
+  }
+
+  .publication-links a {
+    font-weight: 600;
+  }
+}
+
 
 /*
    Grid view

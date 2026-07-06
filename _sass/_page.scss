@@ -112,6 +112,19 @@
   }
 }
 
+.publication-abstract {
+  margin: 0 0 1.25em;
+
+  h2 {
+    margin-top: 0;
+  }
+
+  p {
+    color: $text-color;
+    line-height: 1.65;
+  }
+}
+
 .page__hero {
   position: relative;
   margin-bottom: 2em;
