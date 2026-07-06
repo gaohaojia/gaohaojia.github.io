@@ -108,17 +108,10 @@
 }
 
 .publication-list__item {
+  margin-top: 1.2em;
   padding-top: 1.2em;
-  padding-bottom: 1.2em;
-  border-bottom: 1px solid $border-color;
-
-  &:first-of-type {
-    padding-top: 0;
-  }
-
-  &:last-of-type {
-    border-bottom: 0;
-  }
+  padding-bottom: 0.9em;
+  border-top: 1px solid mix(#000, $border-color, 12%);
 
   .archive__item-title {
     margin-top: 0;

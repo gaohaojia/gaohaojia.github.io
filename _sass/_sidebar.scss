@@ -132,7 +132,7 @@
 .sidebar .author__desktop {
   display: none;
   @media screen and (min-width: 1024px) {
-    display: block;
+    display: flex;
   }
 }
 
@@ -245,8 +245,12 @@
   }
 
   .icon-pad-right {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     flex: 0 0 1.35em;
     width: 1.35em;
+    min-width: 1.35em;
     margin-right: 0.5em;
     padding-right: 0;
     text-align: center;
@@ -259,12 +263,13 @@
     align-items: center;
     margin-bottom: 4px;
     padding: 4px 6px;
+    font-size: $type-size-5;
+    line-height: 1.4;
   }
 
   a {
     border-radius: 6px;
     color: inherit;
-    font-size: $type-size-5;
     text-decoration: none;
     transition: background-color 0.15s ease, color 0.15s ease;
 
