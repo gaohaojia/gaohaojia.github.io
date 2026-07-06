@@ -48,7 +48,10 @@ layout: default
         {{ content }}
 
         {% if page.citation %}
-          <p style="font-size: smaller">BibTeX:</p><pre style="font-size: smaller; white-space: pre-wrap;"><code>{{ page.citation | escape }}</code></pre>
+          <div class="bibtex-citation">
+            <p class="bibtex-citation__label">BibTeX</p>
+            <pre><code>{{ page.citation | escape }}</code></pre>
+          </div>
           {% if page.paperurl and page.slidesurl %}
             <p style="font-size: smaller"><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
           {% elsif page.paperurl %}
